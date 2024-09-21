@@ -12,7 +12,7 @@ async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender
 try{
 let des = `*𝐇𝐄𝐋𝐋𝐎 👋 ${pushname} 𝗤𝗨𝗘𝗘𝗡-𝗖𝗛𝗢𝗢𝗧𝗬-𝗡𝗘𝗟𝗨𝗠𝗜-𝗠𝗗 Whatsapp Bot 💗👨‍💻",
 `
-return await conn.sendMessage(from,{image: {url: `https://imgtr.ee/image/IMG-20240917-WA0492.hdhlvD`},caption: des},{quoted: mek})
+return await conn.sendMessage(from,{image: {url: `https://i.ibb.co/FW2r9Xh/IMG-20240921-WA0114.jpg`},caption: des},{quoted: mek})
 }catch(e){
 console.log(e)
 reply(`${e}`)
