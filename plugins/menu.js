@@ -109,7 +109,7 @@ let dec = `*👋 Hello ${pushname}*
 ╰───────────●●►
 
 *©Qᴜᴇᴇɴ ᴄʜᴏᴏᴛʏ ɴᴇʟᴜᴍɪ ᴍᴅ*👨‍💻`
-await conn.sendMessage(from,{image:{url: `https://imgtr.ee/image/IMG-20240917-WA0492.hdhlvD`},caption:dec},{quoted:mek});
+await conn.sendMessage(from,{image:{url: `https://i.ibb.co/FW2r9Xh/IMG-20240921-WA0114.jpg`},caption:dec},{quoted:mek});
 
 }catch(e){
 console.log(e)
