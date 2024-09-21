@@ -17,7 +17,7 @@ const url = data.url
     
     
 let desc = `
-⫷⦁[ * 👨‍💻 𝐐𝐔𝐄𝐄𝐍 𝐂𝐇𝐎𝐎𝐓𝐘 𝐍𝐄𝐋𝐔𝐌𝐈 𝐌𝐃 𝐒𝐎𝐍𝐆 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐑 👨‍💻 * ]⦁⫸
+⫷⦁[ 👨‍💻 𝐐𝐔𝐄𝐄𝐍 𝐂𝐇𝐎𝐎𝐓𝐘 𝐍𝐄𝐋𝐔𝐌𝐈 𝐌𝐃 𝐒𝐎𝐍𝐆 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐑 👨‍💻  ]⦁⫸
 
 🎵 *Song Found!* 
 
@@ -44,7 +44,7 @@ let downloadUrl = down.dl_url
 
 //send audio message
 await conn.sendMessage(from,{audio: {url:downloadUrl},mimetype:"audio/mpeg"},{quoted:mek})
-await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"audio/mpeg",fileName:data.title + ".mp3",caption:"*©Qᴜᴇᴇɴ ᴄʜᴏᴏᴛʏ ɴᴇʟᴜᴍɪ ᴍᴅ"},{quoted:mek})
+await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"audio/mpeg",fileName:data.title + ".mp3",caption:"*©Qᴜᴇᴇɴ ᴄʜᴏᴏᴛʏ ɴᴇʟᴜᴍɪ ᴍᴅ*"},{quoted:mek})
 
 }catch(e){
 console.log(e)
@@ -70,7 +70,7 @@ const url = data.url
     
     
 let desc = `
-⫷⦁[ * 👨‍💻 𝙌𝙐𝙀𝙀𝙉 𝘾𝙃𝙊𝙊𝙏𝙔 𝙉𝙀𝙇𝙐𝙈𝙄 𝙈𝘿 𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿𝙀𝙍 👨‍💻 * ]⦁⫸ 
+⫷⦁[ 👨‍💻 𝙌𝙐𝙀𝙀𝙉 𝘾𝙃𝙊𝙊𝙏𝙔 𝙉𝙀𝙇𝙐𝙈𝙄 𝙈𝘿 𝘿𝙊𝙒𝙉𝙇𝙊𝘼𝘿𝙀𝙍 👨‍💻  ]⦁⫸ 
 
 🎥 *Video Found!* 
 
